@@ -8,8 +8,8 @@ GIT
 
 GIT
   remote: git://github.com/rails/rails.git
-  revision: 8a39d8331114c73805d5ce989a72763d23bc55b1
-  ref: 8a39d8331114c73805d5ce989a72763d23bc55b1
+  revision: 19bd2f227929c6ad3c1ea6d675d91f2165dec40b
+  ref: 19bd2f227929c6ad3c1ea6d675d91f2165dec40b
   specs:
     actionmailer (4.0.0.beta)
       actionpack (= 4.0.0.beta)
@@ -18,14 +18,14 @@ GIT
       activesupport (= 4.0.0.beta)
       builder (~> 3.1.0)
       erubis (~> 2.7.0)
-      rack (~> 1.4.1)
+      rack (~> 1.4.3)
       rack-test (~> 0.6.1)
     activemodel (4.0.0.beta)
       activesupport (= 4.0.0.beta)
       builder (~> 3.1.0)
     activerecord (4.0.0.beta)
       activemodel (= 4.0.0.beta)
-      activerecord-deprecated_finders (= 0.0.1)
+      activerecord-deprecated_finders (= 0.0.2)
       activesupport (= 4.0.0.beta)
       arel (~> 3.0.2)
     activesupport (4.0.0.beta)
@@ -62,7 +62,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activerecord-deprecated_finders (0.0.1)
+    activerecord-deprecated_finders (0.0.2)
     activerecord-jdbc-adapter (1.2.5)
     activerecord-jdbcsqlite3-adapter (1.2.5)
       activerecord-jdbc-adapter (~> 1.2.5)

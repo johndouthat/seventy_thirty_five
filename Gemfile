@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.0.0.beta', github: 'rails/rails',
-  :ref => '8a39d8331114c73805d5ce989a72763d23bc55b1' # Roll back to old version, Dec 12 2012.
+  :ref => '19bd2f227929c6ad3c1ea6d675d91f2165dec40b' # Roll back to old version, Jan 21 2013.
     # the current master causes a NameError on JRuby. 170fb5c80c990688f5f372a3ba0e6cb75fb6edf0
     # NameError: uninitialized constant SeventyThirtyFive::Application::Railties
 # gem 'activerecord-deprecated_finders', github: 'rails/activerecord-deprecated_finders'
