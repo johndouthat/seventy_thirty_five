@@ -1,5 +1,5 @@
 https://jira.codehaus.org/browse/JRUBY-7035
-https://github.com/rails/rails/pull/8948
+https://github.com/rails/rails/issues/8534
 
 ````
 git clone git://github.com/johndouthat/seventy_thirty_five.git
