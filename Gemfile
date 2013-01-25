@@ -7,7 +7,6 @@ gem 'rails', '4.0.0.beta', github: 'rails/rails',
 # gem 'activerecord-deprecated_finders', github: 'rails/activerecord-deprecated_finders'
 
 gem 'activerecord-jdbcsqlite3-adapter'
-gem 'jruby-openssl'
 
 # Gems used only for assets and not required
 # in production environments by default.
