@@ -1,10 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.0.beta', github: 'rails/rails',
-  :ref => '19bd2f227929c6ad3c1ea6d675d91f2165dec40b' # Roll back to old version, Jan 21 2013.
-    # the current master causes a NameError on JRuby. 170fb5c80c990688f5f372a3ba0e6cb75fb6edf0
-    # NameError: uninitialized constant SeventyThirtyFive::Application::Railties
-# gem 'activerecord-deprecated_finders', github: 'rails/activerecord-deprecated_finders'
+gem 'rails', '4.0.0.beta', github: 'rails/rails'
+gem 'activerecord-deprecated_finders', github: 'rails/activerecord-deprecated_finders'
 
 gem 'activerecord-jdbcsqlite3-adapter'
 gem 'jruby-openssl'

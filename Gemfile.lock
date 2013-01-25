@@ -1,4 +1,10 @@
 GIT
+  remote: git://github.com/rails/activerecord-deprecated_finders.git
+  revision: 5937f3e7102f9be461ce2dccaef0e4d14e92cd35
+  specs:
+    activerecord-deprecated_finders (0.0.3)
+
+GIT
   remote: git://github.com/rails/coffee-rails.git
   revision: 052634e6d02d4800d7b021201cc8d5829775b3cd
   specs:
@@ -8,8 +14,7 @@ GIT
 
 GIT
   remote: git://github.com/rails/rails.git
-  revision: 19bd2f227929c6ad3c1ea6d675d91f2165dec40b
-  ref: 19bd2f227929c6ad3c1ea6d675d91f2165dec40b
+  revision: 0757b3388ffe4f44b60de950d40e18ef05055931
   specs:
     actionmailer (4.0.0.beta)
       actionpack (= 4.0.0.beta)
@@ -25,7 +30,7 @@ GIT
       builder (~> 3.1.0)
     activerecord (4.0.0.beta)
       activemodel (= 4.0.0.beta)
-      activerecord-deprecated_finders (= 0.0.2)
+      activerecord-deprecated_finders (~> 0.0.3)
       activesupport (= 4.0.0.beta)
       arel (~> 3.0.2)
     activesupport (4.0.0.beta)
@@ -47,7 +52,7 @@ GIT
       activesupport (= 4.0.0.beta)
       rake (>= 0.8.7)
       rdoc (~> 3.4)
-      thor (>= 0.15.4, < 2.0)
+      thor (>= 0.17.0, < 2.0)
 
 GIT
   remote: git://github.com/rails/sass-rails.git
@@ -62,12 +67,12 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activerecord-deprecated_finders (0.0.2)
     activerecord-jdbc-adapter (1.2.5)
     activerecord-jdbcsqlite3-adapter (1.2.5)
       activerecord-jdbc-adapter (~> 1.2.5)
       jdbc-sqlite3 (~> 3.7.2)
     arel (3.0.2)
+    atomic (1.0.1)
     atomic (1.0.1-java)
     bouncy-castle-java (1.5.0146.1)
     builder (3.1.4)
@@ -86,6 +91,7 @@ GEM
       thor (>= 0.14, < 2.0)
     jruby-openssl (0.8.2)
       bouncy-castle-java (>= 1.5.0146.1)
+    json (1.7.6)
     json (1.7.6-java)
     mail (2.5.3)
       i18n (>= 0.4.0)
@@ -132,6 +138,7 @@ PLATFORMS
   java
 
 DEPENDENCIES
+  activerecord-deprecated_finders!
   activerecord-jdbcsqlite3-adapter
   coffee-rails (~> 4.0.0.beta)!
   jquery-rails
